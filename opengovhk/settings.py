@@ -31,6 +31,8 @@ class Dev(OpenGovHK, Base):
     pass
 
 
+
+
 class Production(OpenGovHK, Base):
     DEBUG = False
     TEMPLATE_DEBUG = False
@@ -51,6 +53,19 @@ class Production(OpenGovHK, Base):
     CELERY_ALWAYS_EAGER = False
     COMPRESS_ENABLED = False
     COMPRESS_OFFLINE = False
+
+
+class Heroku(Production):
+    ALLOWED_HOSTS = ['*']
+    SECRET_KEY = values.SecretValue()
+    CELERY_ALWAYS_EAGER = True
+
+    @property
+    def LOGGING(self):
+        logging = super(Heroku, self).LOGGING
+        logging['handlers']['console']['stream'] = sys.stdout
+        logging['loggers']['django.request']['handlers'] = ['console']
+        return logging
 
 class ThemeHerokuPostmark(OpenGovHK, HerokuPostmark):
     pass
