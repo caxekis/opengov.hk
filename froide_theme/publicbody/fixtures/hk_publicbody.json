@@ -1,0 +1,4361 @@
+[   
+    {
+      "pk":1,
+      "model":"publicbody.jurisdiction",
+      "fields":{
+         "description":"Hong Kong Special Administrative Region of the People's Republic of China",
+         "hidden":false,
+         "name":"Special Administrative Region",
+         "rank":1,
+         "slug":"sar"
+      }
+   },
+   {
+      "pk":1,
+      "model":"publicbody.foilaw",
+      "fields":{
+         "mediator":null,
+         "letter_start":"",
+         "updated":null,
+         "description":"The Government exists to serve the community well within available resources. To this end, it recognises the need for the community to be well informed about the Government, the services it provides and the basis for policies and decisions that affect individuals and the community as a whole.\r\nThis Code defines the scope of information that will be provided, sets out how the information will be made available either routinely or in response to a request, and lays down procedures governing its prompt release.\r\n\r\nThe Code authorises and requires civil servants, routinely or on request, to provide information unless there are specific reasons for not doing so. These reasons are set out in Part 2 and will normally be referred to if a request for information is refused.\r\n\r\nRequests for information will be handled as promptly and helpfully as possible and if necessary, members of the public may be approached to clarify their requests or the request may be directed to the most appropriate department. Procedures will be kept as simple as possible.\r\n\r\nThe Code also sets out procedures for review or complaint if a member of the public considers that the provisions of the Code have not been properly applied. The Code is available on the Internet as a component of the Gov HK. It can be accessed at http://www.access.gov.hk",
+         "created":null,
+         "url":"http://www.access.gov.hk/en/code.htm",
+         "jurisdiction":1,
+         "letter_end":"",
+         "max_response_time_unit":"day",
+         "request_note":"",
+         "slug":"code-access-information",
+         "priority":3,
+         "refusal_reasons":"",
+         "meta":false,
+         "email_only":false,
+         "max_response_time":30,
+         "site":1,
+         "combined":[
+
+         ],
+         "long_description":"The Government exists to serve the community well within available resources. To this end, it recognises the need for the community to be well informed about the Government, the services it provides and the basis for policies and decisions that affect individuals and the community as a whole.\r\nThis Code defines the scope of information that will be provided, sets out how the information will be made available either routinely or in response to a request, and lays down procedures governing its prompt release.\r\n\r\nThe Code authorises and requires civil servants, routinely or on request, to provide information unless there are specific reasons for not doing so. These reasons are set out in Part 2 and will normally be referred to if a request for information is refused.\r\n\r\nRequests for information will be handled as promptly and helpfully as possible and if necessary, members of the public may be approached to clarify their requests or the request may be directed to the most appropriate department. Procedures will be kept as simple as possible.\r\n\r\nThe Code also sets out procedures for review or complaint if a member of the public considers that the provisions of the Code have not been properly applied. The Code is available on the Internet as a component of the Gov HK. It can be accessed at http://www.access.gov.hk",
+         "name":"Code on Access to Information"
+      }
+   },
+    {
+        "pk": 1,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Government Laboratory",
+            "slug": "government-laboratory",
+            "email": "winnieymwong@govtlab.gov.hk",
+            "address": "7/F, Ho Man Tin Government Offices \n88 Chung Hau Street\nHomantin\nKowloon",
+            "contact": "Miss WONG Yui Man, Winnie\n2762 3710\n2714 4083",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The Government Laboratory provides a full range of analytical, investigatory and advisory services and support to enable departments and bureaux of the Government of the Hong Kong Special Administrative Region to meet their responsibilities for law and order, public health and safety, environmental protection, government revenue, consumers' interests and implementation of government policies. Similar services are provided for other statutory bodies.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.govtlab.gov.hk/english/home.htm",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 2,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Agriculture, Fisheries and Conservation Department",
+            "slug": "agriculture-fisheries-and-conservation-department",
+            "email": "betty_ty_cheung@afcd.gov.hk",
+            "address": "5/F Cheung Sha Wan Government Offices, 303 Cheung Sha Wan Road, Kowloon",
+            "contact": "Ms. CHEUNG Tak Yee, Betty\n2150 6665\n2311 3731",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "Agriculture, Fisheries and Conservation Department provides services to the public in connection with agriculture and fisheries, nature conservation and animal, plant and fisheries regulation.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.afcd.gov.hk/eindex.html",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 3,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Government Logistics Department",
+            "slug": "government-logistics-department",
+            "email": "ddsg@gld.gov.hk",
+            "address": "8/F, North Point Government Offices\n333 Java Road\nNorth Point\nHong Kong",
+            "contact": "Ms. CHEUNG Wai Wah, Terry\n(852) 2231 5398\n(852) 2887 6591",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "We pledge to provide bureaux and departments of the Hong Kong Special Administrative Region Government with professional, cost effective and timely logistical support services in the areas of procurement and supplies, transport operation and management, as well as printing services, to enable them to serve the people of Hong Kong better.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.gld.gov.hk/eng/welcome.htm",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 4,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "All registries and administrative offices of courts and tribunals\nfor which the Judiciary Administrator has responsibility",
+            "slug": "all-registries-and-administrative-offices-of-courts-and-tribunals-for-which-the-judiciary-administrator-has-responsibility",
+            "email": "",
+            "address": "Lower Ground 2nd Floor, High Court Building, 38 Queensway, Hong Kong",
+            "contact": "Mr. IU Pui Hung, Jerry\n2825 4593",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "All registries and administrative offices of courts and tribunals\nfor which the Judiciary Administrator has responsibility.\nMission of the Judiciary: To maintain an independent and effective judicial system which upholds the rule of law, safeguards the rights and freedoms of the individual, and commands confidence within and outside Hong Kong.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.judiciary.gov.hk/en/index/index.htm",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 5,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Labour and Welfare Bureau",
+            "slug": "labour-and-welfare-bureau",
+            "email": "anniceyeung@lwb.gov.hk",
+            "address": "Labour and Welfare Bureau\n10/F, West Wing, Central Government Offices\n2 Tim Mei Avenue\nAdmiralty\nHong Kong",
+            "contact": "Miss YEUNG Ching Shan, Annice\n(852) 2810 3278\n(852) 2523 1973",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The Labour and Welfare Bureau is committed to implementing various important policies for the benefits of the grassroots and the underprivileged with a view to improving their livelihood.Underpinned by the Labour Department, Social Welfare Department and other service agencies, LWB will press on with the tasks of promoting employment, maintaining harmonious labour relations, safeguarding the labour rights of employees and enhancing safety and health at work.The bureau provides services related to the issuing of registration cards for persons with disabilities, processing of applications for course registration under the Continuing Education Fund, processing of payment for the Financial Assistance Scheme for Family Members of those who Sacrifice their Lives to Save Others, and processing of applications and reimbursement claims in relation to the Community Investment and Inclusion Fund.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.lwb.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 6,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Legal Aid Department",
+            "slug": "legal-aid-department",
+            "email": "ladinfo@lad.gov.hk",
+            "address": "Legal Aid Department\n27/F, Queensway Government Offices\n66 Queensway\nHong Kong",
+            "contact": "Miss Leung Pik-kwan, Patricia\n(852) 2867 3171\n(852) 2869 0655",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "Our mission is to ensure that any person who has reasonable grounds for taking or defending a legal action is not prevented from doing so by lack of means.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.lad.gov.hk/eng/home/home.html",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 7,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Leisure and Cultural Services Department",
+            "slug": "leisure-and-cultural-services-department",
+            "email": "ceoa@lcsd.gov.hk",
+            "address": "Leisure and Cultural Services Headquarters\nRm 1304, 13/F \nNo. 1-3 Pai Tau Street\nSha Tin \nNew Territories",
+            "contact": "Miss Alice Ng\n(852) 2601 8968\n(852) 2603 0642",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "We aim to provide quality leisure and cultural services commensurate with Hong Kong's development as a world-class city and events capital.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.lcsd.gov.hk/en/home.php",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 8,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Audit Commission",
+            "slug": "audit-commission",
+            "email": "hmswong@aud.gov.hk",
+            "address": "25th and 26th floors, Immigration Tower, 7 Gloucester Road, Wan Chai, Hong Kong",
+            "contact": "Ms. WONG May San, Harriet\n2829 4208\n2824 2087\n2583 9063 (Confidential Fax No.)",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "To provide independent, professional and quality audit services to the Legislative Council and public sector organisations in order to help the Government enhance public sector performance and accountability in Hong Kong\n\n",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.aud.gov.hk/eng/home/home.htm",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 9,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Marine Department",
+            "slug": "marine-department",
+            "email": "dsychan@mardep.gov.hk",
+            "address": "Marine Department\n22/F, Harbour Building\n8 Pier Road \nHong Kong",
+            "contact": "Miss CHAN Shui Yan, Daphne\n(852) 2852 3237\n(852) 2543 2769",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The Marine Department, headed by the Director of Marine, is responsible for all navigational matters in Hong Kong and the safety standards of all classes and types of vessels. Our stated mission is \"We are One in Promoting Excellence in Marine Services\". The functions we perform are, briefly, to\nfacilitate the safe and expeditious movement of ships, cargoes and passengers within Hong Kong waters;\nensure compliance with international and local safety and marine environmental protection standards in respect of ships registered and licensed in Hong Kong and using Hong Kong waters;\nadminister the Hong Kong Shipping Register and develop policies, standards and legislation in line with international conventions;\nensure compliance with international and local requirements on the competency of seafarers for ships registered and licensed in Hong Kong and using its waters, and to regulate the registration and employment of Hong Kong seafarers;\nco-ordinate maritime search and rescue operations within Hong Kong international area of responsibility and ensure compliance with international convention;\ncombat oil pollution in Hong Kong waters, collect vessel-generated refuse and scavenge floating refuse in specified areas of Hong Kong waters; and\nprovide and maintain in the most cost-effective manner the number of government vessels that departments need to conduct their business.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.mardep.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 10,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Auxiliary Medical Service",
+            "slug": "auxiliary-medical-service",
+            "email": "ads@ams.gov.hk",
+            "address": "81 Princess Margaret Road, Ho Man Tin, Kowloon, Hong Kong",
+            "contact": "Miss WONG Yuen Yee, Emily\n2762 2016\n2715 0245",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "Our Mission\nTo provide resources to augment the regular medical and health services to maintain the care and well-being of the people of Hong Kong in the most efficient and effective manner through a well-trained, professional and committed volunteer force.\n\n",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.ams.gov.hk/eng/main.htm",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 11,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Buildings Department",
+            "slug": "buildings-department",
+            "email": "smleung@bd.gov.hk",
+            "address": "17th floor, Pioneer Centre, 750 Nathan Road, Mongkok, Kowloon",
+            "contact": "Mr. LEUNG Siu Man\n2626 1717",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The department provides services to owners and occupants in both existing and new buildings in the private sector through enforcement of the Buildings Ordinance.\nAs regards existing buildings, the services provided include reducing dangers and nuisances caused by unauthorised building works and advertisement signboards; promoting proper repairs and maintenance of old buildings, drainage and slopes; considering and approving alteration and addition works; processing submissions under the simplified requirements and the household minor works validation scheme of the minor works control system; improving fire safety measures in buildings and providing advice on the suitability of premises for the issue of licences for specified commercial uses.\nAs regards new buildings, the department scrutinises and approves building plans, carries out audit checks on construction works and site safety and issues occupation permits upon completion of new buildings.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.bd.gov.hk/english/index.html",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 12,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Office of the Commissioner of Insurance",
+            "slug": "office-of-the-commissioner-of-insurance",
+            "email": "jimmy_lw_tang@oci.gov.hk",
+            "address": "Office of the Commissioner of Insurance \n21/F, Queensway Government Offices\n66 Queensway\nHong Kong",
+            "contact": "Mr. TANG Luk Wing, Jimmy\n(852) 2867 2560\n(852) 2869 0252",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The principal functions of the IA are to ensure that the interests of policy holders or potential policy holders are protected and to promote the general stability of the insurance industry. The IA has the following major duties and powers:",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.oci.gov.hk/about/index.html",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 13,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Office of the Communications Authority",
+            "slug": "office-of-the-communications-authority",
+            "email": "cynthiachan@ofca.gov.hk",
+            "address": "Office of the Communications Authority\n29/F, Wu Chung House\n213 Queen's Road East\nWanchai\nHong Kong",
+            "contact": "Ms. CHAN Siu Ting, Cynthia\n(852) 2961 6751\n(852) 2591 0316",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "Our Vision\n\nTo provide full support to the Communications Authority in fulfilling its vision that Hong Kong has the world-class communications services to meet the challenges of the information age.\n\nOur Mission\n\nWe are committed to -\n\nPublic - Fulfilling the needs and expectations of the community\nIndustry - Providing a fair regulatory environment conducive to innovation and business investment\nEconomy - Maintaining Hong KongâÃÃ´s position as a pre-eminent communications centre in the region to support economic development\nStaff - Maintaining a cohesive, versatile and professional team and nurturing a working environment that recognizes and rewards results\nCivil Service - Being a model department that performs effectively and efficiently",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.ofca.gov.hk/en/home/",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 14,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Census and Statistics Department",
+            "slug": "census-and-statistics-department",
+            "email": "elschan@censtatd.gov.hk",
+            "address": "16/F-22/F and 25/F, Wanchai Tower, 12 Harbour Road, Wan Chai, HK",
+            "contact": "Ms. CHAN Lai Shan, Edith\n2582 5025\n2827 1708",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "With strict adherence to integrity and objectivity, C&SD is committed to providing high-quality statistical services meeting international and domestic requirements.  Apart from compiling and disseminating relevant, timely and reliable official statistics in accordance with international standards and statistical principles, the Department also strives to promote statistical literacy and the development of statistical work.  Our mission is to contribute to the furthering of the social and economic developments of our society by facilitating informed research, discussion, planning and decision making in the Government and in the wider community.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.censtatd.gov.hk/home/",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 15,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Government Property Agency",
+            "slug": "government-property-agency",
+            "email": "ds@gpa.gov.hk",
+            "address": "Government Property Agency\n31/F, Revenue Tower\n5 Gloucester Road\nWanchai\nHong Kong",
+            "contact": "Mr. CHAN Kai Yau, Eddie\n2594 7604\n2594 7604",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The main activities of the Agency are -\n\nTo construct, purchase or lease general use office premises to meet vetted accommodation needs and to ensure proper utilisation.\nTo manage government properties including those in private developments through private contractors.\nTo optimise use of government, institutional and community sites through reviewing site reservations, seeking release of under-utilised government sites where appropriate, and examining proposal for new developments.\nTo vet accommodation requirements of bureaux and departments.\nTo delease leased office and residential accommodation to tie in with the availability of owned premises.\nTo lease out surplus government properties with commercialisation potential and implement new commercialisation initiatives where appropriate.\nTo scrutinise Deed of Mutual Covenants and execute Assignments in respect of government accommodation in private developments.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.gpa.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 16,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Architectural Services Department",
+            "slug": "architectural-services-department",
+            "email": "tamwki@archsd.gov.hk",
+            "address": "Public Works Programme Section \nArchitectural Services Department\n35/F, Queensway Government Offices\n66 Queensway, Hong Kong.",
+            "contact": "Ms. TAM Wai Kun, Isabel\n2867 4017\n2801 4706",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The three areas of our services are:\nMonitoring and advisory services - to provide effective professional and technical advice to the Government and quasi-\ngovernment organizations and to oversee subvented, joint-venture and entrusted projects;\nFacilities upkeep - to provide efficient and cost-effective professional and project management services for the\nmaintenance and refurbishment of buildings and facilities; and\nFacilities development - to provide efficient, cost-effective and timely architectural and associated professional and\nproject management services for the design and construction of buildings and related facilities.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.archsd.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 17,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Highways Department",
+            "slug": "highways-department",
+            "email": "adsa.adm@hyd.gov.hk",
+            "address": "Highways Department\n5/F, Ho Man Tin Government Offices\n88 Chung Hau Street\nHo Man Tin\nKowloon",
+            "contact": "Miss LEUNG Ka Ling, Vina\n2762 3329\n2714 5216",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The Highways Department aims at providing an efficient road and rail network for the movement of people and goods. We undertake the planning, design and maintenance of Hong Kong's public road system and coordinate the implementation of new highway and railway projects. We welcome your suggestions and comments in order to help us to improve on our work and service.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "www.hyd.gov.hk/âÃÃ©",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 18,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Bureau",
+            "slug": "home-affairs-bureau",
+            "email": "jlslai@hab.gov.hk",
+            "address": "12/F, West Wing, Central Government Offices\n2 Tim Mei Avenue\nTamar\nHong Kong",
+            "contact": "Miss LAI Lai Sheung, Janet\n3509 8009\n2519 3507",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "www.hab.gov.hk/âÃÃ©",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 19,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Headquarters",
+            "slug": "home-affairs-department-headquarters",
+            "email": "john_fw_ho@had.gov.hk",
+            "address": "1/F, Southorn Centre\n130 Hennessy Road\nHong Kong",
+            "contact": "Mr. HO Fook Wah, John\n2835 2707\n2574 5286",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 20,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Central and Western District",
+            "slug": "home-affairs-department-central-and-western-district",
+            "email": "rita_yp_lai@had.gov.hk",
+            "address": "11/F, Habour Building\n38 Pier Road \nCentral\nHong Kong",
+            "contact": "Ms. LAI Yuen Ping, Rita\n2852 3494\n2815 2155",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 21,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Wan Chai District",
+            "slug": "home-affairs-department-wan-chai-district",
+            "email": "eva_wk_chee@had.gov.hk",
+            "address": "21/F, Southorn Centre\n130 Hennessy Road\nWan Chai\nHong Kong",
+            "contact": "Miss CHEE Wing Kum, Eva\n2835 2005\n2572 7471",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 22,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Eastern District",
+            "slug": "home-affairs-department-eastern-district",
+            "email": "crystal_yk_lee@had.gov.hk",
+            "address": "11/F, Eastern Law Courts Building\n29 Tai On Street\nSai Wan Ho\nHong Kong",
+            "contact": "Ms. LEE Yuen Kwan, Crystal\n2886 6503\n2568 7295",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 23,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Southern District",
+            "slug": "home-affairs-department-southern-district",
+            "email": "yam_yam_yeung@had.gov.hk",
+            "address": "1/F, Ocean Court\n3 Aberdeen Praya Road\nAberdeen\nHong Kong",
+            "contact": "Mr. YEUNG Yam Yam\n2814 5758\n2873 5261",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 24,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Islands District",
+            "slug": "home-affairs-department-islands-district",
+            "email": "abel_yh_yeung@had.gov.hk",
+            "address": "20/F, Harbour Building\n38 Pier Road \nCentral\nHong Kong",
+            "contact": "Mr. YEUNG Yui Hong, Abel\n2852 4322\n2815 2291",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 25,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Offices of the Chief Secretary for Administration and the Financial Secretary",
+            "slug": "offices-of-the-chief-secretary-for-administration-and-the-financial-secretary",
+            "email": "raymond_yuen@cso.gov.hk",
+            "address": "Offices of the Chief Secretary for\nAdministration and the Financial Secretary\n3/F, East Wing\nCentral Government Offices\n2 Tim Mei Avenue\nTamar\nHong Kong",
+            "contact": "Mr Yuen Fook-Cheung, Raymond\n(852) 2810 2009\n(852) 2845 2091",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 26,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Yau Tsim Mong District",
+            "slug": "home-affairs-department-yau-tsim-mong-district",
+            "email": "fiona_yy_lee@had.gov.hk",
+            "address": "6/F, Mongkok Government Offices\n30 Luen Wan Street\nMongkok\nKowloon",
+            "contact": "Miss LEE Yuen Ying, Fiona\n2399 2132\n2397 3425",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 27,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Sham Shui Po District",
+            "slug": "home-affairs-department-sham-shui-po-district",
+            "email": "sally_sm_ho@had.gov.hk",
+            "address": "4/F, Cheung Sha Wan Government Offices\n303 Cheung Sha Wan Road\nSham Shui Po\nKowloon",
+            "contact": "Miss HO Siu Mei, Sally\n2150 8125\n2387 9805",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 28,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Civil Aid Service",
+            "slug": "civil-aid-service",
+            "email": "anthony lk tse@cas.gov.hk",
+            "address": "Civil Aid Service Headquarters, 8 To Wah Road, Yau Ma Tei, Kowloon, Hong Kong.",
+            "contact": "Mr. TSE Li Koon, Anthony\n3651 9319\n2576 3021",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 29,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Kowloon City District",
+            "slug": "home-affairs-department-kowloon-city-district",
+            "email": "becky_pk_ho@had.gov.hk",
+            "address": "Room 1706-1713\nOne Harbourfront\n18-22 Tak Fung Street\nHung Hom\nKowloon",
+            "contact": "Ms. HO Pik Ki, Becky\n2621 3433\n2621 3199",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 30,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Official Receiver's Office",
+            "slug": "official-receivers-office",
+            "email": "dlwkwong@oro.gov.hk",
+            "address": "Official Receiver's Office\n10-12/F, Queensway Government Offices\n66 Queensway\nHong Kong",
+            "contact": "Ms. KWONG Lai Wan, Dorothy\n(852) 2867 2446\n(852) 3105 1814",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 31,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Civil Aviation Department",
+            "slug": "civil-aviation-department",
+            "email": "icscheung@cad.gov.hk",
+            "address": "Level 5, Office Building, Civil Aviation Department Headquarters, 1 Tung Fai Road, Hong Kong International Airport, Hong Kong",
+            "contact": "Mr. CHEUNG Chun-shing, Ivan",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 32,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Wong Tai Sin",
+            "slug": "home-affairs-department-wong-tai-sin",
+            "email": "trevor_ml_ho@had.gov.hk",
+            "address": "6/F, Lung Cheung Office Block\n138 Lung Cheung Road\nWong Tai Sin\nKowloon",
+            "contact": "Mr. HO Ming Leong, Trevor\n3143 1107\n2352 1841",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 33,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Planning Department",
+            "slug": "planning-department",
+            "email": "aycliu@pland.gov.hk",
+            "address": "Technical Services Section\nPlanning Department\n17/F., North Point Government Offices\n333 Java Road \nHong Kong",
+            "contact": "Miss LIU Yee Chun , Alice\n(852) 2231 4612\n(852) 2877 0389",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 34,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Civil Engineering and Development Department",
+            "slug": "civil-engineering-and-development-department",
+            "email": "sukyshlau@cedd.gov.hk",
+            "address": "14/F, Civil Engineering and Development Building, 101 Princess Margaret Rd, Homantin, Kowloon",
+            "contact": "Miss LAU Suk Hang, Suky\n2762 5090\n2714 0140",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 35,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Post Office",
+            "slug": "post-office",
+            "email": "marychung@hkpo.gov.hk",
+            "address": "General Post Office\n2 Connaught Place\nCentral\nHong Kong",
+            "contact": "Ms. CHUNG Shuk Kuen, Mary\n(852) 2921 2261\n(852) 2869 9519",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 36,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Civil Service Bureau",
+            "slug": "civil-service-bureau",
+            "email": "csbsu@csb.gov.hk",
+            "address": "9/F., West Wing, Central Government Offices, 2 Tim Mei Avenue,Tamar, Hong Kong",
+            "contact": "Ms. KWONG Sau Ha, Shirley\n2810 3551\n2868 0574",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 37,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Commerce and Economic Development Bureau\nCommerce, Industry and Tourism Branch",
+            "slug": "commerce-and-economic-development-bureau-commerce-industry-and-tourism-branch",
+            "email": "stephen_ng@cedb.gov.hk",
+            "address": "22-23/F, West Wing, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Mr. NG Tse Ki, Stephen\n2810 3237\n2521 8786",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 38,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Radio Television Hong Kong",
+            "slug": "radio-television-hong-kong",
+            "email": "lauysj@rthk.hk",
+            "address": "Departmental Administration Unit\nRadio Television Hong Kong\nBroadcasting House\n30 Broadcast Drive\nKowloon",
+            "contact": "Miss LAU Yat Sum, Janice\n(852) 2339 6313\n(852) 2338 0279",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 39,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Rating and Valuation Department",
+            "slug": "rating-and-valuation-department",
+            "email": "sktleung@rvd.gov.hk",
+            "address": "Rating and Valuation Department\n18/F, Cheung Sha Wan Government Offices\n303 Cheung Sha Wan Road\nKowloon",
+            "contact": "Mrs. LEUNG TANG Siu Kuen\n(852) 2150 8902\n(852) 2152 0168",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 40,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Commerce and Economic Development Bureau\nCommunications and Technology Branch",
+            "slug": "commerce-and-economic-development-bureau-communications-and-technology-branch",
+            "email": "vmwyiu@cedb.gov.hk",
+            "address": "21/F, West Wing, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Mr. YIU Man Wai, Victor\n3655 5541\n2827 2424",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 41,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Registration and Electoral Office",
+            "slug": "registration-and-electoral-office",
+            "email": "reoenq@reo.gov.hk",
+            "address": "Registration and Electoral Office\n10/F, Harbour Centre\n25 Harbour Road\nWanchai\nHong Kong",
+            "contact": "Mrs. CHEUK CHAN Po Lin, Scarlett\n(852) 2511 4201\n(852) 2827 4644",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 42,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Commerce and Economic Development Bureau\nOffice of the Government Chief Information Officer",
+            "slug": "commerce-and-economic-development-bureau-office-of-the-government-chief-information-officer",
+            "email": "cshlo@ogcio.gov.hk",
+            "address": "19-20/F West Wing, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Ms. LO Siu Han, Cynthia\n2810 3536\n3543 0399",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 43,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Secretariat of the Public Service Commission",
+            "slug": "secretariat-of-the-public-service-commission",
+            "email": "charmaine_au@psc.gov.hk",
+            "address": "Secretariat of the Public Service Commission\n26/F, Fairmont House\n8 Cotton Tree Drive\nCentral\nHong Kong",
+            "contact": "Miss AU Suk Ming, Charmaine\n2523 1953\n2521 5480\nConfidential Fax No.2522 6092",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 44,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Secretariat, Commissioner on Interception of Communications and Surveillance",
+            "slug": "secretariat-commissioner-on-interception-of-communications-and-surveillance",
+            "email": "enq@sciocs.gov.hk",
+            "address": "Secretariat, Commissioner on\nInterception of Communications\nand Surveillance\nUnit 1501, 15/F\n248 Queen's Road East\nWanchai\nHong Kong",
+            "contact": "Mr. WONG Yiu Cheong, Andy\n(852) 2834 3361\n(852) 2573 2610",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 45,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Companies Registry",
+            "slug": "companies-registry",
+            "email": "agneswong@cr.gov.hk",
+            "address": "15th Floor, Queensway Government Offices, Hong Kong",
+            "contact": "Ms. WONG Sau King, Agnes\n2867 4570\n2869 6817",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 46,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Constitutional and Mainland Affairs Bureau",
+            "slug": "constitutional-and-mainland-affairs-bureau",
+            "email": "ckctam@cmab.gov.hk",
+            "address": "13/F, East Wing, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Ms. TAM Kit Ching, Crystal\n2810 2655\n2179 5284",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 47,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Security Bureau",
+            "slug": "security-bureau",
+            "email": "sbenq@sb.gov.hk",
+            "address": "Security Bureau\n9/F East Wing\nCentral Government Offices\n2 Tim Mei Avenue\nTamar\nHong Kong",
+            "contact": "Ms. PO Siu Fan, Lilian\n(852) 2810 3017\n(852) 2868 5074",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 48,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Correctional Services Department",
+            "slug": "correctional-services-department",
+            "email": "email@csd.gov.hk",
+            "address": "24th Floor, Wanchai Tower, 12 Harbour Road, Wanchai, Hong Kong",
+            "contact": "Ms. WONG Yuk King, Daisy\n2582 5188\n2802 0184",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 49,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Social Welfare Department",
+            "slug": "social-welfare-department",
+            "email": "dsdaio@swd.gov.hk",
+            "address": "Social Welfare Department\n9/F, Wu Chung House\n213 Queen's Road East\nWanchai\nHong Kong",
+            "contact": "Ms. CHEUNG Wan Kum, Amelia\n(852) 2892 5264\n(852) 2151 0572",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.swd.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 50,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Customs and Excise Department",
+            "slug": "customs-and-excise-department",
+            "email": "belle_hn_mok@customs.gov.hk",
+            "address": "30/F, Customs Headquarters Building, 222 Java Road, North Point, Hong Kong",
+            "contact": "Miss MOK Ho Nam, Belle\n3759 3881\n3108 3586",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "Mission\nto protect the Hong Kong Special Administrative Region against smuggling\nto protect and collect revenue on dutiable goods\nto detect and deter narcotics trafficking and abuse of narcotic drugs\nto protect intellectual property rights\nto protect consumer interests\nto protect and facilitate legitimate trade and industry and to uphold Hong Kong's trading integrity\nto fulfill international obligations",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.customs.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 51,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Kwun Tong District",
+            "slug": "home-affairs-department-kwun-tong-district",
+            "email": "iris_cp_tsang@had.gov.hk",
+            "address": "21/F, Millennium City 6,\n392 Kwun Tong Road,\nKwun Tong,\nKowloon\nKowloon",
+            "contact": "Ms. TSANG Chui Pik, Iris\n2171 7415\n2797 8521",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 52,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Kwai Tsing District",
+            "slug": "home-affairs-department-kwai-tsing-district",
+            "email": "jason_ch_tse@had.gov.hk",
+            "address": "3/F, North District Government Offices Building\nPik Fung Road \nFanling\nNew Territories",
+            "contact": "Mr. TSE Chi Ho, Jason\n2675 1860\n2675 4414",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 53,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Sai Kung District",
+            "slug": "home-affairs-department-sai-kung-district",
+            "email": "william_l_fu@had.gov.hk",
+            "address": "6/F, Sai Kung Tseung Kwan O Government Complex,\n38 Pui Shing Road, Hang Hau,\nTseung Kwan O,\nNew Territories",
+            "contact": "Mr. FU Lui, William\n3740 5330\n2792 9440",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 54,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Sha Tin District",
+            "slug": "home-affairs-department-sha-tin-district",
+            "email": "raymond_th_pang@had.gov.hk",
+            "address": "4/F, Sha Tin Government Office\n1 Sheung Wo Che Road\nSha Tin\nNew Territories",
+            "contact": "Mr. PANG Tat Hung, Raymond\n2158 5384\n2695 4305",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 55,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Tai Po District",
+            "slug": "home-affairs-department-tai-po-district",
+            "email": "ka_yin_choy@had.gov.hk",
+            "address": "2/F, Tai Po Government Offices Building\n1 Ting Kok Road\nTai Po\nNew Territories",
+            "contact": "Mr. CHOY Ka Yin\n2654 1171\n2652 1187",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 56,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Tuen Mun District",
+            "slug": "home-affairs-department-tuen-mun-district",
+            "email": "joanna_st_chan@had.gov.hk",
+            "address": "2/F, Tuen Mun Government Offices\n1 Tuen Hi Road\nTuen Mun\nNew Territories",
+            "contact": "Miss CHAN Shuk Tuen, Joanna\n2451 3068\n2450 3014",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 57,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Tsuen Wan District",
+            "slug": "home-affairs-department-tsuen-wan-district",
+            "email": "karen_ky_mak@had.gov.hk",
+            "address": "1/F, Tsuen Wan Station Multi-storey Carpark Building\n174-208 Castle Peak Road \nTsuen Wan\nNew Territories",
+            "contact": "Miss MAK Ka Yan, Karen\n3515 5607\n2412 0244",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 58,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Home Affairs Department Yuen Long District",
+            "slug": "home-affairs-department-yuen-long-district",
+            "email": "christina_cc_wong@had.gov.hk",
+            "address": "4/F, Yuen Long District Offices Building\n269 Castle Peak Road \nYuen Long \nNew Territories",
+            "contact": "Miss WONG Chung Chi, Christina\n2470 1114\n2474 7261\n2449 4653",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 59,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Monetary Authority",
+            "slug": "hong-kong-monetary-authority",
+            "email": "hkma@hkma.gov.hk",
+            "address": "55/F, Two International Finance Centre\n8 Finance Street\nCentral\nHong Kong",
+            "contact": "Ms. HAU Mei Yin, Ada\n2878 1969\n2878 8197",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 60,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Observatory",
+            "slug": "hong-kong-observatory",
+            "email": "dsec@hko.gov.hk",
+            "address": "134A Nathan Road\nKowloon",
+            "contact": "Miss NG Po Lin, Letty\n2926 8207\n2311 9448",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 61,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Housing Department",
+            "slug": "housing-department",
+            "email": "sinyuk.lee@housingauthority.gov.hk",
+            "address": "33 Fat Kwong Street\nHo Man Tin\nKowloon",
+            "contact": "Miss LEE Sin Yuk\n2761 6018\n2711 4111",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 62,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Immigration Department",
+            "slug": "immigration-department",
+            "email": "enquiry@immd.gov.hk",
+            "address": "23/F, Immigration Tower\n7 Gloucester Road\nWan Chai\nHong Kong",
+            "contact": "Mr. NG Ka Chung\n2829 3847\n2507 3581",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 63,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Independent Commission Against Corruption",
+            "slug": "independent-commission-against-corruption",
+            "email": "",
+            "address": "3/F and 8/F\n303 Java Road\nNorth Point\nHong Kong",
+            "contact": "Ms. LI Kwan Chu, Judy\n2826 3109\n2537 1741\n",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 64,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Student Financial Assistance Agency",
+            "slug": "student-financial-assistance-agency",
+            "email": "awslee@sfaa.gov.hk",
+            "address": "Student Financial Assistance Agency\n11/F and 12/F, Cheung Sha Wan Government Offices\n303 Cheung Sha Wan Road\nKowloon",
+            "contact": "Ms. LEE Wing Suen, Alice\n(852) 2155 2250\n(852) 2519 3857\nor telephone 2150 6168",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 65,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Department of Health",
+            "slug": "department-of-health",
+            "email": "ds@dh.gov.hk",
+            "address": "21/F, Wu Chung House, 213, Queen's Rd East, Wanchai, Hong Kong",
+            "contact": "Ms. KWAN Lai Kam, Vicky\n2961 8500\n2961 8513\n2836 0071\n2803 5075",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 66,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Trade and Industry Department",
+            "slug": "trade-and-industry-department",
+            "email": "elainepo@tid.gov.hk",
+            "address": "Trade and Industry Department\nAdministration Branch\n9/F, Trade and Industry Department Tower\n700 Nathan Road\nKowloon",
+            "contact": "Ms. PO Man Yi, Elaine\n(852) 2398 5104\n(852) 2787 7422\nor phone 2398 5649",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 67,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Department of Justice",
+            "slug": "department-of-justice",
+            "email": "ad@doj.gov.hk",
+            "address": "23rd floor, High Block, Queensway Government Offices, 66 Queensway, Hong Kong",
+            "contact": "",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 68,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Transport and Housing Bureau -- Transport Matters",
+            "slug": "transport-and-housing-bureau-transport-matters",
+            "email": "ewlyip@thb.gov.hk",
+            "address": "Transport and Housing Bureau\n20/F, East Wing,\nCentral Government Offices,\n2 Tim Mei Avenue, Tamar,\nHong Kong",
+            "contact": "Ms. YIP Wai Ling, Elaine\n(852) 3509 7203\n(852) 2868 4643",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 69,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Transport and Housing Bureau -- Housing Matters",
+            "slug": "transport-and-housing-bureau-housing-matters",
+            "email": "sinyuk.lee@housingauthority.gov.hk",
+            "address": "Transport and Housing Bureau\nHousing Department Corporate\nServices Division\nHousing Department Headquarters\n33 Fat Kwong Street\nHo Man Tin\nKowloon",
+            "contact": "Miss Lee Sin Yuk\n(852) 2761 6018\n(852) 2711 4111",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 70,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Transport Department",
+            "slug": "transport-department",
+            "email": "verachan@td.gov.hk",
+            "address": "Transport Department\n41/F, Immigration Tower\n7 Gloucester Road\nWanchai\nHong Kong",
+            "contact": "Ms. CHAN Chui-man, Vera\n(852) 2829 5236\n(852) 2824 0433",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 71,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Treasury",
+            "slug": "treasury",
+            "email": "tryds@try.gov.hk",
+            "address": "Treasury\n27/F, Immigration Tower\n7 Gloucester Road\nWanchai\nHong Kong",
+            "contact": "Ms. LAI Yuet Yee, Elaine\n(852) 2829 5118\n(852) 2598 9273",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 72,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "University Grants Committee Secretariat",
+            "slug": "university-grants-committee-secretariat",
+            "email": "dchow@ugc.edu.hk",
+            "address": "University Grants Committee Secretariat\n7/F, Shui On Centre\n6-8 Harbour Road\nWanchai\nHong Kong",
+            "contact": "Ms Chow Ching-kwan, Doris\n(852) 2844 9924\n(852) 2845 1596",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 73,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Water Supplies Department",
+            "slug": "water-supplies-department",
+            "email": "tn_mow@wsd.gov.hk",
+            "address": "Water Supplies Department\n48/F, Immigration Tower\n7 Gloucester Road\nWanchai\nHong Kong",
+            "contact": "Mr. MOW Tsz Ning\n(852) 2829 4467\n(852) 2802 2537",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 74,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Information Services Department",
+            "slug": "information-services-department",
+            "email": "arthurtong@isd.gov.hk",
+            "address": "5/F, Murray Building\nGarden Road \nHong Kong",
+            "contact": "Mr. TONG Woon Cheong, Arthur\n2842 8633\n2530 2426",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 75,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Inland Revenue Department",
+            "slug": "inland-revenue-department",
+            "email": "cp_wong@ird.gov.hk",
+            "address": "36/F, Revenue Tower\n5 Gloucester Road\nWanchai\nHong Kong",
+            "contact": "Mr. WONG Ching Ping, Leonard\n2594 5005\n2127 4291",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 76,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Innovation and Technology Commission",
+            "slug": "innovation-and-technology-commission",
+            "email": "imwma@itc.gov.hk",
+            "address": "20/F, Wu Chung House \n213 Queen's Road East \nWanchai \nHong Kong",
+            "contact": "Miss MA Mei Wah, Iris\n2737 2251\n2314 7988",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 77,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Intellectual Property Department",
+            "slug": "intellectual-property-department",
+            "email": "gwendawong@ipd.gov.hk",
+            "address": "24/F, Wu Chung House\n213 Queen's Road East\nWanchai\nHong Kong",
+            "contact": "Ms. WONG Mei-ha Gwenda\n2961 6810\n2838 6082",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 78,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Invest Hong Kong",
+            "slug": "invest-hong-kong",
+            "email": "mchan@InvestHK.gov.hk",
+            "address": "Suite 1501-8, Level 15\nOne Pacific Place\n88 Queensway\nHong Kong",
+            "contact": "Ms. CHAN Siu Fong, Monique\n3107 1073\n3107 9140",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 79,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Joint Secretariat for the Advisory Bodies on Civil Service and Judicial Salaries and Conditions of Service",
+            "slug": "joint-secretariat-for-the-advisory-bodies-on-civil-service-and-judicial-salaries-and-conditions-of-service",
+            "email": "enquiry@jsscs.gov.hk",
+            "address": "Room 701, 7/F, Tower 2\nLippo Centre\n89 Queensway\nHong Kong",
+            "contact": "Ms. WONG Wing, Eva\n2912 8520\n2524 7896",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 80,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Development Bureau\nPlanning and Lands Matters",
+            "slug": "development-bureau-planning-and-lands-matters",
+            "email": "plbadmunit@devb.gov.hk",
+            "address": "18/F, West Wing, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Mr. KAN Fu Keung, Eric\n3509 8827\n2536 4225",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 81,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Development Bureau\nWorks Matters",
+            "slug": "development-bureau-works-matters",
+            "email": "adminrms@devb.gov.hk",
+            "address": "18/F, West Wing, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Ms. LEE Wai Fong, Bertha\n3509 7387\n2869 6657",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 82,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Drainage Services Department",
+            "slug": "drainage-services-department",
+            "email": "karenchu@dsd.gov.hk",
+            "address": "43/F, Revenue Tower, 5 Gloucester Road, Wan Chai, Hong Kong",
+            "contact": "Ms. CHU Pui Han, Karen\n2594 7017\n3103 0023 / 2827 8605",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 83,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Education Bureau",
+            "slug": "education-bureau",
+            "email": "exoas3@edb.gov.hk",
+            "address": "16/F, Wu Chung House, 213 Queen's Road East, Wan chai, Hong Kong",
+            "contact": "Miss TAM Pak Yin, Jassy\n2892 6121\n2893 0858",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 84,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Electrical and Mechanical Services Department",
+            "slug": "electrical-and-mechanical-services-department",
+            "email": "chiwaichan@emsd.gov.hk",
+            "address": "6/F, 3 Kai Shing Street, Kowloon, Hong Kong",
+            "contact": "Mr. CHAN Chi Wai\n3155 4024\n2576 0301\n6397 3518 (mobile)",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 85,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Environment Bureau",
+            "slug": "environment-bureau",
+            "email": "stmak@epd.gov.hk",
+            "address": "40th floor, Revenue Tower, 5 Gloucester Road, Wan Chai, Hong Kong",
+            "contact": "Dr. MAK Shing Tat\n2594 6085\n2511 5420",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 86,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Environmental Protection Department",
+            "slug": "environmental-protection-department",
+            "email": "stmak@epd.gov.hk",
+            "address": "40th floor, Revenue Tower, 5 Gloucester Road, Wan Chai, Hong Kong",
+            "contact": "Dr. MAK Shing Tat\n2594 6085\n2511 5420",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 87,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Financial Servcies and Treasury Bureau\nTreasury Branch",
+            "slug": "financial-servcies-and-treasury-bureau-treasury-branch",
+            "email": "agnesyip@fstb.gov.hk",
+            "address": "24/F, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Ms. YIP Ka Wai, Agnes\n2810 2567\n2869 4531",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 88,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Financial Servcies and Treasury Bureau\nFinancial Services Branch",
+            "slug": "financial-servcies-and-treasury-bureau-financial-services-branch",
+            "email": "enq@fstb.gov.hk",
+            "address": "24/F, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Miss LI Kit Lun, Karen\n3655 5141\n2528 3345",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 89,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Fire Services Department",
+            "slug": "fire-services-department",
+            "email": "hkfsdenq@hkfsd.gov.hk",
+            "address": "Tsim Sha Tsui Fire Station Complex, 333 Canton Road, Tsim Sha Tsui, Kowloon",
+            "contact": "Mr. TSANG Wing Hung\n2366 9391\n2724 1480",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 90,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Food and Health Bureau",
+            "slug": "food-and-health-bureau",
+            "email": "aawwan@fhb.gov.hk",
+            "address": "18/F, East Wing, Central Government Offices, 2 Tim Mei Avenue, Tamar, Hong Kong",
+            "contact": "Ms. WAN Ah Wai, Angie\n3509 8769\n2541 3352",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 91,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Food and Environmental Hygiene Department",
+            "slug": "food-and-environmental-hygiene-department",
+            "email": "helenchau@fehd.gov.hk",
+            "address": "44/F, Queensway Government Offices, 66 Queensway, Hong Kong",
+            "contact": "Miss CHAU Shuk Ping, Helen\n2867 5456\n2869 0169",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 92,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "General Office of the Chief Executive's Office",
+            "slug": "general-office-of-the-chief-executives-office",
+            "email": "ceo@ceo.gov.hk",
+            "address": "Tamar, Hong Kong",
+            "contact": "Miss LAU Yee Han, Vivian\n2878 3301\n2509 0577    ",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.ceo.gov.hk/eng/",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 93,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Government Flying Service",
+            "slug": "government-flying-service",
+            "email": "sylviacheng@gfs.gov.hk",
+            "address": "18 South Perimeter Road, Hong Kong International Airport, Lantau, Hong Kong",
+            "contact": "Ms. CHENG Yiu Yin, Sylvia\n2305 8205\n2753 8438",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The Government Flying Service (GFS) is a department of the Government of the Hong Kong Special Administrative Region employing 227 civil servants responsible for flight operations, maintenance and administration. \n\nThe department is headed by the Controller who reports directly to the Secretary for Security. The Controller is supported by the following sections:\n\nThe Operations Section - the core part of the department. It provides flying services, mainly for search and rescue, air ambulance, firefighting, and law enforcement agencies' operations.\n\nThe Training and Standards Section - responsible for setting professional standards and overseeing the training and development of all aircrews.\n\nThe Engineering Section - an approved HKAR 145 maintenance organization, well supports the flying and operational activities. It provides virtually all the aircraft and equipment maintenance services from within its well-equipped and modern hangar and workshops.\n\nThe Quality and Flight Safety Section - ensures that the department's operations conform to civil aviation flying regulations and other quality and flight safety standards.\n\nThe Administration Section - provides administrative support services to the whole department. The services it provides include human resource management, financial management, supplies and general administration.\n\nOne of the major responsibilities of the GFS lies with search and rescue operations. Besides serving Hong Kong, the department also assists in missions originated from the Civil Aviation Department and the Maritime Rescue and Coordination Centre.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.gfs.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 94,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Labour Department",
+            "slug": "labour-department",
+            "email": "ads-a-2@labour.gov.hk",
+            "address": "17/F, Harbour Building\n38 Pier Road\nCentral\nHong Kong",
+            "contact": "Miss LAM Siu Yung, Daisy\n2852 4082\n2544 3271",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "Our Vision\n\nTo be a leading labour administrator in the region. Our aim is to enhance the well-being of our workforce progressively and promote the safety and health of those at work.\n\nOur Mission\n\nTo improve the utilisation of human resources by providing a range of employment services to meet changes and needs in the labour market;\nTo ensure that risks to people's safety and health at work are properly managed by legislation, education and promotion;\nTo foster harmonious labour relations through promotion of good employment practices and resolution of labour disputes; and\nTo improve and safeguard employees' rights and benefits in an equitable manner.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.labour.gov.hk/front.htm",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 95,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Land Registry",
+            "slug": "land-registry",
+            "email": "csa@landreg.gov.hk",
+            "address": "19/F\nQueensway Government Offices\n66 Queensway\nHong Kong",
+            "contact": "Mr. POON Fai Yiu, Kenneth\n2867 2707\n2523 0065",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The Land Registry aims to maintain an efficient and effective land registration system to facilitate the orderly conduct of land transactions. The Registry's main duties are registration of documents affecting land under the Land Registration Ordinance, provision of facilities for search and supply of copies of the Land Register and related records, and registration of owners' corporations under the Building Management Ordinance.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.landreg.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 96,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Lands Department",
+            "slug": "lands-department",
+            "email": "ds@landsd.gov.hk",
+            "address": "21/F, North Point Government Offices\n333 Java Road, North Point\nHong Kong",
+            "contact": "Mrs. SIU NG Che Sheung, Pearl\n2231 3288\n2536 0827",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "The Lands Department is responsible for all land matters in the Hong Kong Special Administrative Region. It comprises three functional offices. The Lands Administration Office takes charge of land disposal and acquisition, valuation of land and properties for various purposes, lease enforcement, land and squatter control, urban renewal and maintenance of man-made slopes on unallocated and unleased government land. The Survey and Mapping Office is the official land survey and mapping agency for Hong Kong. It sets up and maintains the geodetic survey control network, carries out land boundary surveys and aerial surveys, and produces maps in both paper and digital forms. The Legal Advisory and Conveyancing Office provides in-house legal advisory service, administers the Lands Department Consent Scheme by giving consent to sale of units in uncompleted developments and approves Deeds of Mutual Covenant.",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "http://www.landsd.gov.hk",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 97,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Support Wing",
+            "slug": "hong-kong-police-force-support-wing",
+            "email": "seo-support@police.gov.hk",
+            "address": "Police Headquarters\nNo.1 Arsenal Street\nWan Chai, \nHong Kong",
+            "contact": "Ms. SO Pui Wan , Fiona\n2860 3727\n2200 4329",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 98,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Operations Wing",
+            "slug": "hong-kong-police-force-operations-wing",
+            "email": "eo-ops@police.gov.hk",
+            "address": "Room 87, 6/F, Arsenal House East Wing\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Miss WONG Ching, Cally\n2860 2181\n2294 0002",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 99,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Crime Wing",
+            "slug": "hong-kong-police-force-crime-wing",
+            "email": "seo-crm@police.gov.hk",
+            "address": "24/F Arsenal House West Wing \nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Ms. HO Siu Lin, Shirley\n2860 8156\n2528 2284",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 100,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Security Wing",
+            "slug": "hong-kong-police-force-security-wing",
+            "email": "",
+            "address": "",
+            "contact": "",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 101,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Personnel Wing",
+            "slug": "hong-kong-police-force-personnel-wing",
+            "email": "seo-hq-p@police.gov.hk",
+            "address": "37/F Arsenal House\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Mr. LAM Kwok Chiu\n2860 3368\n2200 4422",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 102,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police College",
+            "slug": "hong-kong-police-college",
+            "email": "seo-hrf-hkpc@police.gov.hk",
+            "address": "20/F Arsenal House\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "2860 2244\n2200 4376",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 103,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Information Systems Wing",
+            "slug": "hong-kong-police-force-information-systems-wing",
+            "email": "seo-p-g-is@police.gov.hk",
+            "address": "25/F Arsenal House\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Miss LAI Bik Ki, Peggy\n2860 2278\n2200 4375",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 104,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Service Quality Wing",
+            "slug": "hong-kong-police-force-service-quality-wing",
+            "email": "seo-a-sq@police.gov.hk",
+            "address": "27/F Arsenal House\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Ms. NG Oi Yi, Helen\n2860 6590\n2200 4312",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 105,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Administration Wing",
+            "slug": "hong-kong-police-force-administration-wing",
+            "email": "seo-g-d@police.gov.hk",
+            "address": "36/F Arsenal House\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Mr. LEUNG Ying Kit\n2860 3666\n2200 4392",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 106,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Eastern District",
+            "slug": "hong-kong-police-force-eastern-district",
+            "email": "deo-edist@police.gov.hk",
+            "address": "North Point Police Station\n343 Java Road\nNorth Point\nHong Kong",
+            "contact": "Ms. HO Siu Ching, Angela\n(852) 2880 4375\n(852) 2811 3216",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 107,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Wan Chai District",
+            "slug": "hong-kong-police-force-wan-chai-district",
+            "email": "deo-wchdist@police.gov.hk",
+            "address": "Wan Chai Police District Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Mr. HO Chi Cheong, Paul\n(852) 3660 7509\n(852) 2507 2020",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 108,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Central District",
+            "slug": "hong-kong-police-force-central-district",
+            "email": "deo-cdist@police.gov.hk",
+            "address": "Central Police District Headquarters\nNo.2 Chung Kong Road\nSheung Wan\nHong Kong",
+            "contact": "Miss LEUNG Pui Yin, Sam\n(852) 3660 1105\n(852) 3660 1298",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 109,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Western District",
+            "slug": "hong-kong-police-force-western-district",
+            "email": "deo-wdist@police.gov.hk",
+            "address": "Western Police District Headquarters\n280 Des Voeux Road West\nHong Kong",
+            "contact": "Ms. LEE Tsui Yan, Kina\n(852) 2859 4209\n(852) 2859 4209",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 110,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Traffic Hong Kong Island Region",
+            "slug": "traffic-hong-kong-island-region",
+            "email": "eo-t-hki@police.gov.hk",
+            "address": "Traffic Police Hong Kong Island\n28 Shau Kei Wan Road\nHong Kong",
+            "contact": "Ms. LEE Shuk Ping, Angela\n(852) 3106 8882\n(852) 2804 6858",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 111,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nAuxiliary Support Bureau",
+            "slug": "hong-kong-police-force-auxiliary-support-bureau",
+            "email": "eo-aux-sup@police.gov.hk",
+            "address": "12 Wang Chiu Road, Kowloon Bay, Kowloon",
+            "contact": "Miss LAM Sin Hang, Constance\n2993 1505\n2121 8834",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 112,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nCrime New Territories South Region",
+            "slug": "hong-kong-police-force-crime-new-territories-south-region",
+            "email": "ip-sip-a-s-crm-nts@police.gov.hk",
+            "address": "NT South Regional Headquarters\nNo. 8 Shing Mun Road\nTsuen Wan",
+            "contact": "Ms. LAW Suk Man\n3661 1489\n2200 4670",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 113,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nTraffic New Territories South Region",
+            "slug": "hong-kong-police-force-traffic-new-territories-south-region",
+            "email": "eo-t-nts@police.gov.hk",
+            "address": "No.8, Shing Mun Road, Tsuen Wan",
+            "contact": "Ms. CHU Lai Chun, Stella\n3661 1303\n2200 4658",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 114,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nLantau District",
+            "slug": "hong-kong-police-force-lantau-district",
+            "email": "deo-ltdist@police.gov.hk",
+            "address": "1 Shun Tung Road\nLantau Island",
+            "contact": "Miss WOO Wai Man\n2988 2421",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 115,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nAirport District",
+            "slug": "hong-kong-police-force-airport-district",
+            "email": "deo-aptdist@police.gov.hk",
+            "address": "Airport Police Station\n8 Catering Road West\nChek Lap Kok\nLantau",
+            "contact": "Miss HUNG Wing Yan, Wendy\n2106 7004\n2769 4808",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 116,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nSha Tin District",
+            "slug": "hong-kong-police-force-sha-tin-district",
+            "email": "deo-stdist@police.gov.hk",
+            "address": "200 Ma On Shan Road, Ma On Shan Police Station, Sha Tin, New Territories",
+            "contact": "Mr. MOK Kai Ming\n2640 5309",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 117,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nKwai Tsing District",
+            "slug": "hong-kong-police-force-kwai-tsing-district",
+            "email": "deo-kwtdist@police.gov.hk",
+            "address": "13 Tsing Yi Heung Sze Wui Road, Tsing Yi Island, New Territories",
+            "contact": "Mr. KUM Chung Yin, Basten\n2431 3677\n2485 3592",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 118,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nTsuen Wan District",
+            "slug": "hong-kong-police-force-tsuen-wan-district",
+            "email": "deo-twdist@police.gov.hk",
+            "address": "23-27 Tsuen King Circuit\nTsuen Wan\nNew Territories",
+            "contact": "Miss LI Wan Ching\n2417 5309\n2416 4171",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 119,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nCrime New Territories North Region",
+            "slug": "hong-kong-police-force-crime-new-territories-north-region",
+            "email": "",
+            "address": "NT North Regional Headquarters\n6 On Po Lane\nTai Po\nNew Territories",
+            "contact": "3661 3020\n2664 0668",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 120,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nTraffic New Territories North Region",
+            "slug": "hong-kong-police-force-traffic-new-territories-north-region",
+            "email": "",
+            "address": "NT North Regional Headquarters\n6 On Po Lane\nTai Po\nNew Territories",
+            "contact": "3661 3020\n2664 0668",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 121,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nBorder District",
+            "slug": "hong-kong-police-force-border-district",
+            "email": "deo-bordist@police.gov.hk",
+            "address": "Man Kam To Road\nSha Ling\nNew Territories",
+            "contact": "Miss CHOR Mei Po, Mabel\n3661 4070\n2670 3896",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 122,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nYuen Long District",
+            "slug": "hong-kong-police-force-yuen-long-district",
+            "email": "deo-yldist@police.gov.hk",
+            "address": "246 Castle Peak Road, Yuen Long, New Territories",
+            "contact": "Mr. WAT Chi Hung, William\n3661 4670\n2478 3722",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 123,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nTuen Mun District",
+            "slug": "hong-kong-police-force-tuen-mun-district",
+            "email": "deo-tmdist@police.gov.hk",
+            "address": "Tuen Mun Police Station\n100 Pui To Road\nTuen Mun\nNew Territories",
+            "contact": "Miss HO Sze Nga, Cecilia\n3661 5770\n2465 3662",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 124,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Finance Wing",
+            "slug": "hong-kong-police-force-finance-wing",
+            "email": "ta-ma-fin@police.gov.hk",
+            "address": "33/F Arsenal House\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Mr. CHU Luk Hang, Patrick\n2860 3093\n2200 4343",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 125,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Planning & Development Branch",
+            "slug": "hong-kong-police-force-planning-development-branch",
+            "email": "seo-p-d@police.gov.hk",
+            "address": "28/F Arsenal House\nPolice Headquarters\nNo.1 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Mrs. LEUNG MAK Suk Kuen, Florence\n2860 2711\n2200 4374",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 126,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Hong Kong Island Region",
+            "slug": "hong-kong-police-force-hong-kong-island-region",
+            "email": "rseo-hki@police.gov.hk",
+            "address": "HK Island Regional Headquarters\n5/F Caine House\nNo.3 Arsenal Street\nWan Chai\nHong Kong",
+            "contact": "Mr. LEUNG Sheung Yee, Raymond\n2860 1021\n2200 4430",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 127,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Kowloon East Region",
+            "slug": "hong-kong-police-force-kowloon-east-region",
+            "email": "rseo-ke@police.gov.hk",
+            "address": "Kowloon East Regional Headquarters\n110 Po Lam Road North\nKowloon",
+            "contact": "Ms. CHAN May Ying, Annie\n2703 2407\n2704 0611",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 128,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Crime Hong Kong Island Region",
+            "slug": "hong-kong-police-force-crime-hong-kong-island-region",
+            "email": "",
+            "address": "",
+            "contact": "",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 129,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Kowloon West Region",
+            "slug": "hong-kong-police-force-kowloon-west-region",
+            "email": "rseo-kw@police.gov.hk",
+            "address": "Kowloon West Regional Headquarters\n190 Argyle Street\nKowloon",
+            "contact": "Mr. FONG Ming Yuen, Alex\n2761 2215\n2761 0085",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 130,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force New Territories North Region",
+            "slug": "hong-kong-police-force-new-territories-north-region",
+            "email": "rseo-ntn@police.gov.hk",
+            "address": "NT North Regional Headquarters\n6 On Po Lane\nTai Po\nNew Territories",
+            "contact": "Ms. LAM Pui Fun, Maggie\n3661 3010\n2665 2521",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 131,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Wong Tai Sin District",
+            "slug": "hong-kong-police-wong-tai-sin-district",
+            "email": "deo-ktdist@police.gov.hk",
+            "address": "Wong Tai Sin Police District Headquarters\n2 Shatin Pass Road\nWong Tai Sin\nKowloon",
+            "contact": "Ms. FU San, Flora\n(852) 2352 9409\n(852) 2325 2142",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 132,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Kwun Tong District",
+            "slug": "hong-kong-police-kwun-tong-district",
+            "email": "deo-ktdist@police.gov.hk",
+            "address": "Kwun Tong Police District Headquarters\n9 Lei Yue Mun Road\nKwun Tong\nKowloon",
+            "contact": "Miss YAN Mei Yee, Michelle\n(852) 2709 8308\n(852) 2709 3489",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 133,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Sau Mau Ping District",
+            "slug": "hong-kong-police-sau-mau-ping-district",
+            "email": "deo-smpdist@police.gov.hk",
+            "address": "Sau Mau Ping Police District Headquarters\n200 Hong Ning Road\nKowloon",
+            "contact": "Miss LAM Man Yin, Brenda\n(852) 2797 4240\n(852) 2341 9248",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 134,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Traffic Kowloon East Region",
+            "slug": "hong-kong-police-force-traffic-kowloon-east-region",
+            "email": "eo-t-ke@police.gov.hk",
+            "address": "Kowloon East Regional Headquarters\n110 Po Lam Road North\nKowloon",
+            "contact": "Miss LAM Ka Yuk\n(852) 2703 2307\n(852) 2701 0482",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 135,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Crime Kowloon East Region",
+            "slug": "hong-kong-police-force-crime-kowloon-east-region",
+            "email": "",
+            "address": "",
+            "contact": "",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 136,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Crime Yau Tsim District",
+            "slug": "hong-kong-police-force-crime-yau-tsim-district",
+            "email": "deo-ytdist@police.gov.hk",
+            "address": "213 Nathan Road\nKowloon",
+            "contact": "Ms. TSANG Yan Yan, Irene\n(852) 2731 7205\n(852) 2314 8872",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 137,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Crime Mong Kok District",
+            "slug": "hong-kong-police-force-crime-mong-kok-district",
+            "email": "deo-mkdist@police.gov.hk",
+            "address": "142 Prince Edward Road West\nKowloon",
+            "contact": "Mr. KWAN Kei Leung, Jover\n(852) 2398 6206\n(852) 2397 8819",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 138,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Crime Sham Shui Po District",
+            "slug": "hong-kong-police-force-crime-sham-shui-po-district",
+            "email": "deo-sspodist@police.gov.hk",
+            "address": "880 Lai Chi Kok Road\nKowloon",
+            "contact": "Miss CHAN Hoi Wa\n(852) 2746 3430\n(852) 2786 9130",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 139,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Kowloon City District",
+            "slug": "hong-kong-police-force-kowloon-city-district",
+            "email": "deo-kcdist@police.gov.hk",
+            "address": "99 Princess Margaret Road",
+            "contact": "Miss CHUNG Wing Ki, Sharon\n(852) 2761 8309\n(852) 2713 5822",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 140,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force New Territories South Region",
+            "slug": "hong-kong-police-force-new-territories-south-region",
+            "email": "Kowloon",
+            "address": "Kowloon",
+            "contact": "Ms. TANG Siu Mui, Anna\n3661 1121\n2200 4652",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 141,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force Marine Region",
+            "slug": "hong-kong-police-force-marine-region",
+            "email": "rseo-mar@police.gov.hk",
+            "address": "Marine Regional Headquarters\nTai Hong Street\nSai Wan Ho\nHong Kong",
+            "contact": "Ms. KWOK Wai Yin, Judy\n2803 6135\n2369 0604",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 142,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nTai Po District",
+            "slug": "hong-kong-police-force-tai-po-district",
+            "email": "deo-tpdist@police.gov.hk",
+            "address": "4 On Po Lane\nTai Po\nNew Territories",
+            "contact": "Ms. LAI Wai Man\n3661 3570\n2665 2952",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 143,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nCrime Kowloon West Region",
+            "slug": "hong-kong-police-force-crime-kowloon-west-region",
+            "email": "",
+            "address": "Kowloon West Regional Headquarters\n190 Argyle Street\nKowloon",
+            "contact": "2761 2287\n2761 0085",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    },
+    {
+        "pk": 144,
+        "model": "publicbody.publicbody",
+        "fields": {
+            "name": "Hong Kong Police Force\nTraffic Kowloon West Region",
+            "slug": "hong-kong-police-force-traffic-kowloon-west-region",
+            "email": "eo-t-kw@police.gov.hk",
+            "address": "Traffic Kowloon West\nNo. 8 Wai Wan Lane\nHung Hom\nKowloon",
+            "contact": "Mr. NG Kwan Lok, John\n2773 5231\n2789 8214",
+            "jurisdiction": 1,
+            "other_names": "",
+            "description": "",
+            "classification": "Public Body",
+            "classification_slug": "public-body",
+            "url": "",
+            "parent": null,
+            "website_dump": "",
+            "request_note": "",
+            "number_of_requests": "0",
+            "laws": [
+                1
+            ],
+            "depth": "0",
+            "site": "1",
+            "confirmed": false,
+            "_updated_by": null,
+            "root": null,
+            "_created_by": null
+        }
+    }
+]
