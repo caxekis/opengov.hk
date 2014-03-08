@@ -5,8 +5,8 @@ from froide.settings import Base, ThemeBase, HerokuPostmark, HerokuPostmarkS3  #
 class CustomThemeBase(ThemeBase):
     FROIDE_THEME = 'froide_theme.theme'
 
-    SITE_NAME = "My Froide"
-    SITE_EMAIL = "info@example.com"
+    SITE_NAME = "OpenGov.HK"
+    SITE_EMAIL = "foi@opendatahk.com"
     SITE_URL = 'http://localhost:8000'
 
     SECRET_URLS = {
