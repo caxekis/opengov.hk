@@ -25,14 +25,14 @@ def find_version(*file_paths):
 
 
 setup(
-    name="froide_theme",
-    version=find_version("froide_theme", "__init__.py"),
-    url='https://github.com/okfn/froide_theme',
+    name="opengovhk",
+    version=find_version("opengovhk", "__init__.py"),
+    url='https://github.com/ODHK/opengov.hk',
     license='MIT',
-    description="Template theme for Froide install",
+    description="Theme for Froide install at OpenGovHK",
     long_description=read('README.md'),
-    author='Stefan Wehrmeyer',
-    author_email='mail@stefanwehrmeyer.com',
+    author='Mart van de Ven',
+    author_email='mart@opendatahk.com',
     packages=find_packages(),
     install_requires=['froide'],
     include_package_data=True,
