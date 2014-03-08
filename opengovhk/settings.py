@@ -57,8 +57,7 @@ class Production(OpenGovHK, Base):
 
 class Heroku(Production):
     ALLOWED_HOSTS = ['*']
-    SECRET_KEY = values.SecretValue()
-    CELERY_ALWAYS_EAGER = True
+    CELERY_ALWAYS_EAGER = False
 
     @property
     def LOGGING(self):
