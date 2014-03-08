@@ -33,7 +33,7 @@ class Dev(OpenGovHK, Base):
 class Production(OpenGovHK, Base):
     DEBUG = False
     TEMPLATE_DEBUG = False
-    ALLOWED_HOSTS = values.TupleValue(('http://opengovhk.herokuapp.com/','opengov.hk'))
+    ALLOWED_HOSTS = values.TupleValue(('opengovhk.herokuapp.com/',))
     CELERY_ALWAYS_EAGER = values.BooleanValue(False)
     COMPRESS_ENABLED = True
     COMPRESS_OFFLINE = False
