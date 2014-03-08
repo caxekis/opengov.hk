@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 from froide.settings import Base, ThemeBase, HerokuPostmark, HerokuPostmarkS3  # noqa
 
 
@@ -33,9 +34,22 @@ class Dev(OpenGovHK, Base):
 class Production(OpenGovHK, Base):
     DEBUG = False
     TEMPLATE_DEBUG = False
-    ALLOWED_HOSTS = values.TupleValue(('opengov.hk',))
-    CELERY_ALWAYS_EAGER = values.BooleanValue(False)
-    COMPRESS_ENABLED = True
+    ALLOWED_HOSTS = ['opengov.hk']
+    ALLOWED_HOSTS = ['*'] # temp flexibility
+
+    PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+    STATIC_ROOT = os.path.abspath(os.path.join(PROJECT_ROOT, "..", "public"))
+
+    PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
+    STATIC_ROOT = 'staticfiles'
+    STATIC_URL = '/static/'
+
+    STATICFILES_DIRS = (
+        os.path.join(PROJECT_PATH, 'static'),
+    )
+    
+    CELERY_ALWAYS_EAGER = False
+    COMPRESS_ENABLED = False
     COMPRESS_OFFLINE = False
 
 class ThemeHerokuPostmark(OpenGovHK, HerokuPostmark):
