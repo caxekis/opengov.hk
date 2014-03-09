@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-import os
+import os, re
 from froide.settings import Base, ThemeBase, HerokuPostmark, HerokuPostmarkS3  # noqa
-
 
 class OpenGovHK(ThemeBase):
     FROIDE_THEME = 'opengovhk.theme'
@@ -28,8 +27,29 @@ class OpenGovHK(ThemeBase):
         return installed
 
 class Dev(OpenGovHK, Base):
-    pass
 
+    rec = re.compile
+
+    FROIDE_CONFIG = dict(
+        create_new_publicbody=True,
+        publicbody_empty=True,
+        user_can_hide_web=True,
+        public_body_officials_public=True,
+        public_body_officials_email_public=False,
+        request_public_after_due_days=14,
+        payment_possible=True,
+        currency="Euro",
+        default_law=1,
+        search_engine_query="http://www.google.de/search?as_q=%(query)s&as_epq=&as_oq=&as_eq=&hl=en&lr=&cr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=%(domain)s&as_rights=&safe=images",
+        greetings=[rec(u"Dear (?:Mr\.?|Ms\.? .*?)")],
+        closings=[rec(u"Sincerely yours,?")],
+        public_body_boosts={},
+        dryrun=True,
+        dryrun_domain="opengov.hk",
+        allow_pseudonym=False,
+        doc_conversion_binary=None,  # replace with libreoffice instance
+        doc_conversion_call_func=None  # see settings_test for use
+    )
 
 
 
