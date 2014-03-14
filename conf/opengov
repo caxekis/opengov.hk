@@ -20,6 +20,6 @@ server {
                 root /var/www/opengov.hk/staticfiles;
         }
         location /media {
-                root /var/www/opengov.hk/files;
+                root /var/www/opengov.hk/media;
         }
 }
