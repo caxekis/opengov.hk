@@ -1,0 +1,25 @@
+# file: /etc/nginx/sites-available/opengov.hk
+# nginx configuration for opengov.hk
+
+server {
+        server_name www.opengov.hk;
+        rewrite ^(.*) http://opengov.hk$1 permanent;
+}
+
+server {
+        server_name opengov.hk;
+        access_log /var/www/opengov.hk/logs/access.log;
+        error_log /var/www/opengov.hk/logs/error.log;
+
+        location / {
+                uwsgi_pass unix:/tmp/uwsgi.sock;
+                include /etc/nginx/uwsgi_params;
+        }
+
+        location /static {
+                root /var/www/opengov.hk/staticfiles;
+        }
+        location /media {
+                root /var/www/opengov.hk/files;
+        }
+}
