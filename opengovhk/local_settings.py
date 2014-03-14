@@ -1,5 +1,5 @@
+import os, re
 from .settings import Base, CustomThemeBase
-import re
 
 
 class Dev(CustomThemeBase, Base):
@@ -291,35 +291,29 @@ class Dev(CustomThemeBase, Base):
 
     # HAYSTACK_SIGNAL_PROCESSOR = 'celery_haystack.signals.CelerySignalProcessor'
 
-    ########## Froide settings ########
+    # rec = re.compile
 
-    # # Add the name of your
-    # FROIDE_THEME = 'opengovhk'
-    # # Add your theme to the top of installed apps
-    # INSTALLED_APPS = [FROIDE_THEME] + INSTALLED_APPS
+    # FROIDE_CONFIG = dict(
+    #     create_new_publicbody=True,
+    #     publicbody_empty=True,
+    #     user_can_hide_web=True,
+    #     public_body_officials_public=True,
+    #     public_body_officials_email_public=False,
+    #     request_public_after_due_days=14,
+    #     payment_possible=True,
+    #     currency="Euro",
+    #     default_law=1,
+    #     search_engine_query="http://www.google.de/search?as_q=%(query)s&as_epq=&as_oq=&as_eq=&hl=en&lr=&cr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=%(domain)s&as_rights=&safe=images",
+    #     greetings=[rec(u"Dear (?:Mr\.?|Ms\.? .*?)")],
+    #     closings=[rec(u"Sincerely yours,?")],
+    #     public_body_boosts={},
+    #     dryrun=False,
+    #     dryrun_domain="opengov.hk",
+    #     allow_pseudonym=False,
+    #     doc_conversion_binary=None,  # replace with libreoffice instance
+    #     doc_conversion_call_func=None  # see settings_test for use
+    # )
 
-    rec = re.compile
-
-    FROIDE_CONFIG = dict(
-        create_new_publicbody=True,
-        publicbody_empty=True,
-        user_can_hide_web=True,
-        public_body_officials_public=True,
-        public_body_officials_email_public=False,
-        request_public_after_due_days=14,
-        payment_possible=True,
-        currency="Euro",
-        default_law=1,
-        search_engine_query="http://www.google.de/search?as_q=%(query)s&as_epq=&as_oq=&as_eq=&hl=en&lr=&cr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=%(domain)s&as_rights=&safe=images",
-        greetings=[rec(u"Dear (?:Mr\.?|Ms\.? .*?)")],
-        closings=[rec(u"Sincerely yours,?")],
-        public_body_boosts={},
-        dryrun=False,
-        dryrun_domain="opengov.hk",
-        allow_pseudonym=False,
-        doc_conversion_binary=None,  # replace with libreoffice instance
-        doc_conversion_call_func=None  # see settings_test for use
-    )
 
 
     ###### Email ##############
