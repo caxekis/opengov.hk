@@ -76,7 +76,7 @@ class Production(OpenGovHK):
 
     STATIC_URL = '/static/'   
 
-    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__name__), '..'))
+    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__name__)))
     STATIC_ROOT = os.path.abspath(PROJECT_ROOT, 'static'))
     
     CELERY_ALWAYS_EAGER = False
