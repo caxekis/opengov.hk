@@ -19,6 +19,7 @@ env.user = 'su_opengov'
 env.github_account = 'ODHK'
 env.github_repo = 'opengov.hk'
 env.github_email = 'info@opengov.hk'
+env.github_name = 'OpenGov.HK Admin'
 
 env.key_filename = "~/.ssh/id_rsa"
 env.colorize_errors = True
@@ -49,7 +50,7 @@ def platform():
 
 # Setup
 
-def setup(update=False):
+def setup(update=False,shell=False):
     """
     Update the installed packages and decide how to setup the system depending on the OS
     """
@@ -59,6 +60,9 @@ def setup(update=False):
 
     if update:
         update_system()
+
+    if shell:
+        setup_shell()
 
     if env.os == 'Ubuntu':
         setup_ubuntu()
@@ -206,10 +210,11 @@ def update_system():
 def setup_shell():
     with cd('$HOME'):
         run('curl -L http://install.ohmyz.sh | sh')
-        run('chsh $USER -s $(which zsh);')
+        sudo('chsh $USER -s $(which zsh);')
         run('curl https://gist.githubusercontent.com/tijptjik/97e1e0380a21249b49d9/raw/9071ee07f29cad69cad70d82d3f1f55033080561/prose.zsh-theme >> .oh-my-zsh/themes/prose.zsh-theme')
         run('mkdir -p $HOME/.tools')
-        run('git clone https://github.com/rupa/z.git $HOME/.tools/z')
+        with settings(warn_only=True): 
+            run('git clone https://github.com/rupa/z.git $HOME/.tools/z')
         run('curl https://gist.githubusercontent.com/tijptjik/ac9555e37364287aac37/raw/6ceaab0a37b15e1e334c5089ac95ebf03d56b3b3/.zshrc > .zshrc'    )
         run('source $HOME/.zshrc')
 
@@ -221,7 +226,7 @@ def setup_ubuntu():
     sudo('apt-get install -y python-setuptools python-dev')
     sudo('easy_install pip')
     sudo('pip install virtualenv')
-    sudo('apt-get install -y git zsh htop')
+    sudo('apt-get install -y git zsh htop links')
     sudo('apt-get install -y nginx')
     sudo('apt-get install -y postgresql postgresql-contrib python-psycopg2 libpq-dev')
     sudo('apt-get install -y libxml2 libxslt1.1 libxslt1-dev')
@@ -249,6 +254,7 @@ def setup_osx():
 
 def setup_common():
     setup_user_dir()
+    setup_github()
     prepare_nginx()
     setup_release_dirs()
     deploy()
@@ -313,6 +319,10 @@ def cleanup():
 
 def setup_user_dir():
     sudo('mkdir -p %(path)s; chown %(user)s:%(user)s %(path)s;' % env, pty=True)
+
+def setup_github():
+    run('git config --global user.email %(github_email)s' % env)
+    run('git config --global user.name %(github_name)s' % env)
 
 def prepare_nginx():
     with settings(warn_only=True):
