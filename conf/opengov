@@ -23,9 +23,9 @@ server {
         }
 
         location /static/ {
-                root /var/www/opengov.hk/current/public;
+                root /var/www/opengov.hk/current/;
         }
         location /media/ {
-                root /var/www/opengov.hk/current/media;
+                root /var/www/opengov.hk/current/;
         }
 }
