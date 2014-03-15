@@ -27,3 +27,4 @@ django-storages==1.1.8
 boto==2.20.0
 git+https://github.com/ODHK/froide.git@master#egg=froide
 Fabric
+ipython
