@@ -12,7 +12,6 @@ from fabric.contrib.files import exists, append
 env.os = 'ubuntu'
 env.project_name = 'opengov'
 env.project_url = 'opengov.hk'
-# env.hosts = ['opengov.hk']
 env.hosts = ['128.199.212.155']
 env.path = '/var/www/%(project_url)s' % env
 env.user = 'su_opengov'
@@ -42,7 +41,7 @@ def localhost():
  
 def platform():
     "Use the open platform"
-    env.hosts = ['128.199.212.155']
+    env.hosts = ['opengov.hk']
     env.user = 'su_opengov'
     env.path = '/var/www/%(project_url)s' % env
     env.os = 'ubuntu'
@@ -246,8 +245,8 @@ def setup_common():
 def install_site():
     "Add the virtualhost file to nginx"
     with settings(warn_only=True):
-        sudo('cp %(current_release)s/conf/%(project_name)s /etc/nginx/sites-available' % env)
-        sudo('ln -s /etc/nginx/sites-available/%(project_name)s /etc/nginx/sites-enabled/%(project_name)s' % env)
+        sudo('cp %(current_release)s/conf/%(project_url)s /etc/nginx/sites-available' % env)
+        sudo('ln -s /etc/nginx/sites-available/%(project_url)s /etc/nginx/sites-enabled/%(project_url)s' % env)
  
 def update_env():
     "Install the required packages from the requirements file using pip"
