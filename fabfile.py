@@ -228,7 +228,7 @@ def setup_shell():
         run('mkdir -p $HOME/.tools')
         with settings(warn_only=True): 
             run('git clone https://github.com/rupa/z.git $HOME/.tools/z')
-        run('curl https://gist.githubusercontent.com/tijptjik/ac9555e37364287aac37/raw/6ceaab0a37b15e1e334c5089ac95ebf03d56b3b3/.zshrc > .zshrc'    )
+        run('curl https://gist.githubusercontent.com/tijptjik/ac9555e37364287aac37/raw/ecd9fec1fb1e5e4de1181e31e852ddb7205c640b/.zshrc > .zshrc'    )
         run('source $HOME/.zshrc')
 
 def setup_ubuntu():
