@@ -95,6 +95,15 @@ def deploy():
     cleanup()
     restart()
 
+def hotfix():
+    """
+    Deploy a hotfix to to server. Does not create a new release directory, does 
+    not install any dependencies, also does not restart the server.
+    """ 
+    releases()
+    with cd(env.current_path):
+        pull()
+
 def rollback():
     """Rolls back to a previous version and restarts"""
     releases()
