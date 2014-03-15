@@ -1,6 +1,5 @@
 import os
 import sys
-# from dj_static import Cling
 
 # Calculate the path based on the location of the WSGI script.
 apache_configuration = os.path.dirname(__file__)
@@ -14,11 +13,5 @@ os.environ.setdefault('DJANGO_CONFIGURATION', 'Production')
 
 from configurations.wsgi import get_wsgi_application
 application = get_wsgi_application()
-
-try:
-    # application = Cling(application)
-    pass
-except ImportError:
-    pass
 
 

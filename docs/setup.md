@@ -6,3 +6,4 @@
 	1. Add `id_rsa.pub` to Github repo as deploy key  
 1. `fab your_env setup`
 1. `fab your_env setup:update=True,shell=True` setup updates all packages on the host OS, shell installs ZSH with a set of productive aliases
+1. 'fab create_django_admin'
