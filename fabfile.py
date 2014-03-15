@@ -36,7 +36,6 @@ def localhost():
     env.hosts = ['localhost']
     env.user = 'io'
     env.path = '/srv/%(project_url)s' % env
-    env.os = 'fedora'
     env.env_file = "requirements.txt"
  
 def platform():
@@ -44,7 +43,6 @@ def platform():
     env.hosts = ['opengov.hk']
     env.user = 'su_opengov'
     env.path = '/var/www/%(project_url)s' % env
-    env.os = 'ubuntu'
     env.env_file = "requirements.txt"
 
 ## TASKS
@@ -57,14 +55,16 @@ def setup(update=False):
     """
     require('hosts', provided_by=[localhost,platform])
 
+    env.os = osname()
+
     if update:
         update_system()
 
-    if env.os == 'ubuntu':
+    if env.os == 'Ubuntu':
         setup_ubuntu()
-    elif env.os == 'fedora':
+    elif env.os == 'Fedora':
         setup_fedora()
-    elif env.os == 'osx':
+    elif env.os == 'OSX':
         setup_osx()
 
 # Deployment
@@ -197,11 +197,21 @@ def update_system():
     require('os', provided_by=[localhost,platform])
     require('path')
 
-    if env.os == 'ubuntu':
+    if env.os == 'Ubuntu':
         sudo('apt-get update')
         sudo('apt-get -y upgrade')
-    elif env.os == 'fedora':
+    elif env.os == 'Fedora':
         sudo('yum update -y')
+
+def setup_shell():
+    with cd('$HOME'):
+        run('curl -L http://install.ohmyz.sh | sh')
+        run('chsh $USER -s $(which zsh);')
+        run('curl https://gist.githubusercontent.com/tijptjik/97e1e0380a21249b49d9/raw/9071ee07f29cad69cad70d82d3f1f55033080561/prose.zsh-theme >> .oh-my-zsh/themes/prose.zsh-theme')
+        run('mkdir -p $HOME/.tools')
+        run('git clone https://github.com/rupa/z.git $HOME/.tools/z')
+        run('curl https://gist.githubusercontent.com/tijptjik/ac9555e37364287aac37/raw/6ceaab0a37b15e1e334c5089ac95ebf03d56b3b3/.zshrc > .zshrc'    )
+        run('source $HOME/.zshrc')
 
 def setup_ubuntu():
     """
@@ -211,7 +221,10 @@ def setup_ubuntu():
     sudo('apt-get install -y python-setuptools python-dev')
     sudo('easy_install pip')
     sudo('pip install virtualenv')
-    sudo('apt-get install -y nginx postgresql postgresql-contrib libxml2 libxslt1.1 libxslt1-dev libpq-dev python-psycopg2 git ')
+    sudo('apt-get install -y git zsh htop')
+    sudo('apt-get install -y nginx')
+    sudo('apt-get install -y postgresql postgresql-contrib python-psycopg2 libpq-dev')
+    sudo('apt-get install -y libxml2 libxslt1.1 libxslt1-dev')
     setup_common()
 
 def setup_fedora():
@@ -318,6 +331,16 @@ def permissions():
     sudo("chmod -R g+w %(domain_path)s" % env)
     sudo("chown -R %(user)s:%(user)s %(domain_path)s" % env)
     run("chmod a+w %(shared_path)s/logs" % env)
+
+# OS
+
+def osname():
+    ostype = run('echo $OSTYPE')
+
+    if "darwin" in ostype:
+        return 'OSX'
+    if "linux" in ostype:
+        return run('cat /etc/os-release | grep -Po \'^NAME="?\K([^"]+)\'')  
 
 # Security
 
