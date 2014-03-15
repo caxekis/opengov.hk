@@ -8,5 +8,5 @@ staticfiles/
 .nfs*
 local_settings.py
 env/
-index/
-log/
+index
+log
