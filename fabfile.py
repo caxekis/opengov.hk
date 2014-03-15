@@ -152,6 +152,10 @@ def promote_to_admin(username):
             username=username,
             group='admin'))
 
+def create_django_admin():
+    with cd(env.current_release):
+        run('python manage.py createsuperuser')
+
 def migrate():
     """Run the migrate task"""
     if not env.has_key('current_release'):
@@ -161,7 +165,7 @@ def migrate():
         with cd(env.current_release):
             run("python manage.py syncdb --migrate" % env)
         
-        
+
 # SSH Key Management 
 
 def generate_deploy_key():

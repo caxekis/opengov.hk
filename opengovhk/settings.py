@@ -18,10 +18,6 @@ class OpenGovHK(ThemeBase, Base):
         "admin": "admin",
     }
 
-    SITE_ID = 1
-
-    SECRET_KEY = '3f32f2h8923hf32h'
-
     @property
     def INSTALLED_APPS(self):
         installed = super(OpenGovHK, self).INSTALLED_APPS
@@ -34,14 +30,6 @@ class OpenGovHK(ThemeBase, Base):
         #     # 'django.contrib.flatpages'
         # ]
         return installed
-
-    # @property
-    # def INSTALLED_APPS(self):
-    #     installed = super(OpenGovHK, self).INSTALLED_APPS
-    #     print installed
-    #     if self.FROIDE_THEME is not None:
-    #         return installed.default + [self.FROIDE_THEME]
-    #     return installed.default
 
     HAYSTACK_CONNECTIONS = {
         'default': {
@@ -86,7 +74,6 @@ class Production(OpenGovHK):
     STATIC_ROOT = os.path.abspath(os.path.join(PROJECT_ROOT, "..", "public"))
 
     PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
-    STATIC_ROOT = 'staticfiles'
     STATIC_URL = '/static/'
 
     STATICFILES_DIRS = (
