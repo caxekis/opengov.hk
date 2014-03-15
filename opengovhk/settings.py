@@ -63,22 +63,21 @@ class Dev(OpenGovHK):
     )
 
 
-
 class Production(OpenGovHK):
     DEBUG = True
     TEMPLATE_DEBUG = True
     ALLOWED_HOSTS = ['opengov.hk']
     ALLOWED_HOSTS = ['*'] # temp flexibility
 
-    PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
-    STATIC_ROOT = os.path.abspath(os.path.join(PROJECT_ROOT, "..", "public"))
-
     PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
-    STATIC_URL = '/static/'
-
     STATICFILES_DIRS = (
         os.path.join(PROJECT_PATH, 'static'),
     )
+
+    STATIC_URL = '/static/'   
+
+    PROJECT_ROOT = os.path.abspath(os.path.dirname(__name__))
+    STATIC_ROOT = os.path.abspath(os.path.join(PROJECT_ROOT, "static"))
     
     CELERY_ALWAYS_EAGER = False
     COMPRESS_ENABLED = False
