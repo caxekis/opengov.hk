@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 import os, re
+from configurations import Configuration, importer, values
 from froide.settings import Base, ThemeBase, HerokuPostmark, HerokuPostmarkS3  # noqa
 
-class OpenGovHK(ThemeBase):
+importer.install(check_options=True)
+
+class OpenGovHK(Configuration, ThemeBase):
     FROIDE_THEME = 'opengovhk.theme'
 
     SITE_NAME = "OpenGov.HK"
