@@ -140,19 +140,15 @@ def promote_to_admin(username):
             username=username,
             group='admin'))
 
-# def migrate():
-#     "Update the database"
-#     require('project_name')
-#     run('cd $(path)/releases/current/$(project_name);  ../../../bin/python manage.py syncdb --noinput')
- 
 def migrate():
     """Run the migrate task"""
     if not env.has_key('current_release'):
         releases()
-    with cd(env.current_path):
-        # run("%(current_path)s/env/bin/python manage.py syncdb --migrate" % env)
-        run("source %(current_release)s/env/bin/activate; cd %(current_release)s; python manage.py syncdb --migrate" % env)
-
+    # run("%(current_path)s/env/bin/python manage.py syncdb --migrate" % env)
+    with prefix(". %(current_release)s/env/bin/activate" % env):
+        with cd(env.current_release):
+            run("python manage.py syncdb --migrate" % env)
+        
         
 # SSH Key Management 
 
@@ -256,7 +252,10 @@ def install_site():
 def update_env():
     "Install the required packages from the requirements file using pip"
     run("cd %(current_release)s; virtualenv --no-site-packages --unzip-setuptools env" % env )
-    sudo("pip install -r %(current_release)s/%(env_file)s -e %(current_release)s" % env )
+    with prefix(". %(current_release)s/env/bin/activate" % env):
+        sudo("pip install -r %(current_release)s/%(env_file)s" % env )
+    
+    # sudo("pip install -r %(current_release)s/%(env_file)s -e %(current_release)s" % env )
     permissions()
 
 # Release Management
@@ -329,16 +328,6 @@ def read_key_file(key_file):
         raise RuntimeWarning('Trying to push non-public part of key pair')
     with open(key_file) as f:
         return f.read()
-
-# Sanity Checking
-
-def ensure_src_dir():
-    if not exists(env.path):
-        run("mkdir -p %s" % env.code_dir)
-    with cd(env.path):
-        if not exists(posixpath.join(env.path, '.git')):
-            # init()
-            pass
 
 # Nginx
 
