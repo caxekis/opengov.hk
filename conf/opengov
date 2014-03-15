@@ -8,8 +8,8 @@ server {
 
 server {
         server_name opengov.hk;
-        access_log /var/www/opengov.hk/logs/access.log;
-        error_log /var/www/opengov.hk/logs/error.log;
+        access_log /var/www/opengov.hk/shared/logs/access.log;
+        error_log /var/www/opengov.hk/shared/logs/error.log;
 
         location / {
                 uwsgi_pass unix:/tmp/uwsgi.sock;
@@ -17,9 +17,9 @@ server {
         }
 
         location /static {
-                root /var/www/opengov.hk/staticfiles;
+                root /var/www/opengov.hk/current/staticfiles;
         }
         location /media {
-                root /var/www/opengov.hk/media;
+                root /var/www/opengov.hk/current/media;
         }
 }
