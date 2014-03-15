@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 import os, re
 from configurations import Configuration, importer, values
-from froide.settings import Base, ThemeBase, HerokuPostmark, HerokuPostmarkS3  # noqa
+from froide.settings import ThemeBase, Base # noqa
 
-importer.install(check_options=True)
+# importer.install(check_options=True)
 
-class OpenGovHK(Configuration, ThemeBase):
+class OpenGovHK(ThemeBase, Base):
     FROIDE_THEME = 'opengovhk.theme'
+
+    ROOT_URLCONF = 'froide.urls'
 
     SITE_NAME = "OpenGov.HK"
     SITE_EMAIL = "foi@opendatahk.com"
@@ -16,20 +18,38 @@ class OpenGovHK(Configuration, ThemeBase):
         "admin": "admin",
     }
 
+    SITE_ID = 1
+
+    SECRET_KEY = '3f32f2h8923hf32h'
+
     @property
     def INSTALLED_APPS(self):
         installed = super(OpenGovHK, self).INSTALLED_APPS
-        installed += [
-            # 'foiidea',
-            # 'celery_haystack',
-            'djcelery_email',
-            # 'djangosecure',
-            # 'django.contrib.redirects',
-            # 'django.contrib.flatpages'
-        ]
+        # installed += [
+        #     # 'foiidea',
+        #     # 'celery_haystack',
+        #     # 'djcelery_email',
+        #     # 'djangosecure',
+        #     # 'django.contrib.redirects',
+        #     # 'django.contrib.flatpages'
+        # ]
         return installed
 
-class Dev(OpenGovHK, Base):
+    # @property
+    # def INSTALLED_APPS(self):
+    #     installed = super(OpenGovHK, self).INSTALLED_APPS
+    #     print installed
+    #     if self.FROIDE_THEME is not None:
+    #         return installed.default + [self.FROIDE_THEME]
+    #     return installed.default
+
+    HAYSTACK_CONNECTIONS = {
+        'default': {
+            'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
+        }
+    }
+
+class Dev(OpenGovHK):
 
     rec = re.compile
 
@@ -56,9 +76,9 @@ class Dev(OpenGovHK, Base):
 
 
 
-class Production(OpenGovHK, Base):
-    DEBUG = False
-    TEMPLATE_DEBUG = False
+class Production(OpenGovHK):
+    DEBUG = True
+    TEMPLATE_DEBUG = True
     ALLOWED_HOSTS = ['opengov.hk']
     ALLOWED_HOSTS = ['*'] # temp flexibility
 
@@ -77,25 +97,28 @@ class Production(OpenGovHK, Base):
     COMPRESS_ENABLED = False
     COMPRESS_OFFLINE = False
 
+    rec = re.compile
 
-class Heroku(Production):
-    ALLOWED_HOSTS = ['*']
-    CELERY_ALWAYS_EAGER = False
-
-    @property
-    def LOGGING(self):
-        logging = super(Heroku, self).LOGGING
-        logging['handlers']['console']['stream'] = sys.stdout
-        logging['loggers']['django.request']['handlers'] = ['console']
-        return logging
-
-class ThemeHerokuPostmark(OpenGovHK, HerokuPostmark):
-    pass
-
-
-class ThemeHerokuPostmarkS3(OpenGovHK, HerokuPostmarkS3):
-    pass
-
+    FROIDE_CONFIG = dict(
+        create_new_publicbody=True,
+        publicbody_empty=True,
+        user_can_hide_web=True,
+        public_body_officials_public=True,
+        public_body_officials_email_public=False,
+        request_public_after_due_days=14,
+        payment_possible=True,
+        currency="Euro",
+        default_law=1,
+        search_engine_query="http://www.google.de/search?as_q=%(query)s&as_epq=&as_oq=&as_eq=&hl=en&lr=&cr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=%(domain)s&as_rights=&safe=images",
+        greetings=[rec(u"Dear (?:Mr\.?|Ms\.? .*?)")],
+        closings=[rec(u"Sincerely yours,?")],
+        public_body_boosts={},
+        dryrun=True,
+        dryrun_domain="opengov.hk",
+        allow_pseudonym=False,
+        doc_conversion_binary=None,  # replace with libreoffice instance
+        doc_conversion_call_func=None  # see settings_test for use
+    )
 
 try:
     from .local_settings import *  # noqa

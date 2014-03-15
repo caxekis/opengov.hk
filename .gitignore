@@ -6,3 +6,4 @@ dist/
 *.egg-info
 staticfiles/
 .nfs*
+local_settings.py

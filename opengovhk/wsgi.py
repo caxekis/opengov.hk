@@ -1,6 +1,6 @@
 import os
 import sys
-from dj_static import Cling
+# from dj_static import Cling
 
 # Calculate the path based on the location of the WSGI script.
 apache_configuration = os.path.dirname(__file__)
@@ -16,7 +16,8 @@ from configurations.wsgi import get_wsgi_application
 application = get_wsgi_application()
 
 try:
-    application = Cling(application)
+    # application = Cling(application)
+    pass
 except ImportError:
     pass
 

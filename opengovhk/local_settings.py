@@ -363,3 +363,24 @@ class Dev(CustomThemeBase, Base):
     # address in Reply-To header)
     # or can you send from any address you like?
     FOI_EMAIL_FIXED_FROM_ADDRESS = True
+
+class Production(CustomThemeBase, Base):
+    SECRET_KEY = '8lu*6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb*'
+    SITE_ID = 1
+
+    ######### Haystack ###########
+
+    # Add a real engine like solr
+    HAYSTACK_CONNECTIONS = {
+        'default': {
+            'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
+        }
+    }
+
+    # HAYSTACK_CONNECTIONS = {
+    # 'default': {
+    #     'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+    #     'URL': 'http://127.0.0.1:9200/',
+    #     'INDEX_NAME': 'haystack',    
+    #     }
+    # }
