@@ -155,17 +155,7 @@ def promote_to_admin(username):
 def create_django_admin():
     with cd(env.current_release):
         run('python manage.py createsuperuser')
-
-def migrate():
-    """Run the migrate task"""
-    if not env.has_key('current_release'):
-        releases()
-    # run("%(current_path)s/env/bin/python manage.py syncdb --migrate" % env)
-    with prefix(". %(current_release)s/env/bin/activate" % env):
-        with cd(env.current_release):
-            run("python manage.py syncdb --migrate" % env)
-        
-
+     
 # SSH Key Management 
 
 def generate_deploy_key():
@@ -328,6 +318,17 @@ def cleanup():
         env.directories = ' '.join([ "%(releases_path)s/%(release)s" % { 'releases_path':env.releases_path, 'release':release } for release in directories ])
         run("rm -rf %(directories)s" % env)
 
+# Database
+
+def migrate():
+    """Run the migrate task"""
+    if not env.has_key('current_release'):
+        releases()
+    # run("%(current_path)s/env/bin/python manage.py syncdb --migrate" % env)
+    with prefix(". %(current_release)s/env/bin/activate" % env):
+        with cd(env.current_release):
+            run("python manage.py syncdb --migrate" % env)
+
 # Housekeeping
 
 def setup_user_dir():
@@ -415,4 +416,3 @@ def checkout():
     env.current_release = "%(releases_path)s/%(time).0f" % env
     with cd(env.releases_path):
         clone()
- 
