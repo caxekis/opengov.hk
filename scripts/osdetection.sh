@@ -3,7 +3,7 @@
 
 OS=`uname -s`
 
-if [ "${OS}" = "Mac OS X" ] ; then
+if [ "${OS}" = "Darwin" ] ; then
 	echo 'OSX'
 elif [ "${OS}" = "Linux" ] ; then
 	if [ -f /etc/lsb-release ] && ! [ -h /etc/lsb-release ]; then
