@@ -358,12 +358,10 @@ def permissions():
 # OS
 
 def osname():
-    ostype = run('echo $OSTYPE')
-
-    if "darwin" in ostype:
-        return 'OSX'
-    if "linux" in ostype:
-        return run('cat /etc/os-release | grep -Po \'^NAME="?\K([^"]+)\'')  
+    script_file = open('scripts/osdetection.sh')
+    os = run(script_file.read())
+    script_file.close()
+    return os
 
 # Security
 
