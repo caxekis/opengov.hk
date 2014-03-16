@@ -9,7 +9,7 @@ from fabric.contrib.files import exists, append
 
 ## GLOBALS
 
-env.os = 'ubuntu'
+env.os = 'Ubuntu'
 env.project_name = 'opengov'
 env.project_url = 'opengov.hk'
 env.hosts = ['128.199.212.155']
