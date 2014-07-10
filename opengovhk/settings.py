@@ -8,6 +8,12 @@ from froide.settings import ThemeBase, Base # noqa
 class OpenGovHK(ThemeBase, Base):
     FROIDE_THEME = 'opengovhk.theme'
 
+    LANGUAGES = (
+        ('en', 'English'),
+        ('zh-hk', '繁體中文'),
+        ('zh-cn', '简体中文'),
+    )
+
     ROOT_URLCONF = 'froide.urls'
 
     SITE_NAME = "OpenGov.HK"
