@@ -1,23 +1,18 @@
 # -*- coding: utf-8 -*-
-import os, re, django.conf.locale
+import os, re
 from configurations import Configuration, importer, values
 from froide.settings import ThemeBase, Base # noqa
 
 # importer.install(check_options=True)
 
-EXTRA_LANG_INFO = {
-    'zh-hk': {
-        'bidi': False, # right-to-left
-        'code': 'zh-hk',
-        'name': 'Chinese (Traditional, Hong Kong)',
-        'name_local': u'中文(香港)',
-    },
-}
-LANG_INFO = dict(django.conf.locale.LANG_INFO.items() + EXTRA_LANG_INFO.items())
-django.conf.locale.LANG_INFO = LANG_INFO
-
 class OpenGovHK(ThemeBase, Base):
     FROIDE_THEME = 'opengovhk.theme'
+
+    LANGUAGES = (
+        ('en', 'English'),
+        ('zh-hk', '繁體中文'),
+        ('zh-cn', '简体中文'),
+    )
 
     ROOT_URLCONF = 'froide.urls'
 
