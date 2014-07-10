@@ -4,3 +4,9 @@
 build/
 dist/
 *.egg-info
+staticfiles/
+.nfs*
+local_settings.py
+env/
+index
+log
