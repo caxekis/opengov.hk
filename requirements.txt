@@ -20,3 +20,4 @@ dj-database-url==0.3.0
 django-cache-url==0.8.0
 https://github.com/django-compressor/django-compressor/archive/develop.zip#egg=django_compressor
 -e git://github.com/stefanw/froide.git@master#egg=froide
+Fabric
